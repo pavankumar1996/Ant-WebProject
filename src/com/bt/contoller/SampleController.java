@@ -22,6 +22,7 @@ public class SampleController {
 		JSONObject js = new JSONObject();
 		js.put("Name", "Bhaskar Reddy L");
 		js.put("Technology", "DevOps ");
+		printf(" ");
 
 		return js.toString();
 	}
